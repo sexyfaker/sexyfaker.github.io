@@ -16,12 +16,12 @@
 <meta property="og:description" content="安卓APP测试，少量工作在Android组件等端侧，大部分还是集中在网络通信上。因此测试过程中，网络抓包很重要，一般来说APP会采用HTTP协议，Websocket，Socket协议。其中HTTP协议的最多，Websocket是后起之秀，Socket最少。针对HTTP和Websocket，Burp Suite是进行抓包的不二之选 。 基本设置首先确定android手机和电脑在同一网段下，在这里同为">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="http://yoursite.com/image/bp%E6%8A%93%E5%8C%85/ipcmd.png">
-<meta property="og:image" content="http://yoursite.com/image/bp%E6%8A%93%E5%8C%85/%E6%89%8B%E6%9C%BA%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86.png">
+<meta property="og:image" content="http://yoursite.com/image/bp%E6%8A%93%E5%8C%85/%E6%89%8B%E6%9C%BA%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86.jpg">
 <meta property="og:image" content="http://yoursite.com/image/bp%E6%8A%93%E5%8C%85/bp%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86.png">
-<meta property="og:image" content="http://yoursite.com/image/bp%E6%8A%93%E5%8C%85/%E6%89%8B%E6%9C%BA%E5%AF%BC%E8%AF%81%E4%B9%A6.png">
-<meta property="og:image" content="http://yoursite.com/image/bp%E6%8A%93%E5%8C%85/%E6%89%8B%E6%9C%BA%E8%AE%BF%E9%97%AE%E4%BA%AC%E4%B8%9C.png">
+<meta property="og:image" content="http://yoursite.com/image/bp%E6%8A%93%E5%8C%85/%E6%89%8B%E6%9C%BA%E5%AF%BC%E8%AF%81%E4%B9%A6.jpg">
+<meta property="og:image" content="http://yoursite.com/image/bp%E6%8A%93%E5%8C%85/%E6%89%8B%E6%9C%BA%E8%AE%BF%E9%97%AE%E4%BA%AC%E4%B8%9C.jpg">
 <meta property="og:image" content="http://yoursite.com/image/bp%E6%8A%93%E5%8C%85/%E6%8A%93%E5%8F%96%E4%BA%AC%E4%B8%9C%E6%95%B0%E6%8D%AE%E5%8C%85.png">
-<meta property="og:updated_time" content="2019-08-25T14:10:15.234Z">
+<meta property="og:updated_time" content="2019-08-25T14:16:13.940Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="burp抓取android手机流量包">
 <meta name="twitter:description" content="安卓APP测试，少量工作在Android组件等端侧，大部分还是集中在网络通信上。因此测试过程中，网络抓包很重要，一般来说APP会采用HTTP协议，Websocket，Socket协议。其中HTTP协议的最多，Websocket是后起之秀，Socket最少。针对HTTP和Websocket，Burp Suite是进行抓包的不二之选 。 基本设置首先确定android手机和电脑在同一网段下，在这里同为">
@@ -185,14 +185,14 @@
 <h3 id="基本设置"><a href="#基本设置" class="headerlink" title="基本设置"></a>基本设置</h3><p>首先确定android手机和电脑在同一网段下，在这里同为192.168.1.105</p>
 <p><img src="/image/bp%E6%8A%93%E5%8C%85/ipcmd.png" alt></p>
 <h2 id="手机设置代理"><a href="#手机设置代理" class="headerlink" title="手机设置代理"></a>手机设置代理</h2><p>在无线wifi的高级选项里可以设置</p>
-<p><img src="/image/bp%E6%8A%93%E5%8C%85/%E6%89%8B%E6%9C%BA%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86.png" alt></p>
+<p><img src="/image/bp%E6%8A%93%E5%8C%85/%E6%89%8B%E6%9C%BA%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86.jpg" alt></p>
 <a id="more"></a>
 <h2 id="burp设置代理"><a href="#burp设置代理" class="headerlink" title="burp设置代理"></a>burp设置代理</h2><p>添加代理如图所示</p>
 <p><img src="/image/bp%E6%8A%93%E5%8C%85/bp%E8%AE%BE%E7%BD%AE%E4%BB%A3%E7%90%86.png" alt></p>
 <h2 id="手机安装证书"><a href="#手机安装证书" class="headerlink" title="手机安装证书"></a>手机安装证书</h2><p>把bp的证书导出后，发到手机，手机自动安装</p>
-<p><img src="/image/bp%E6%8A%93%E5%8C%85/%E6%89%8B%E6%9C%BA%E5%AF%BC%E8%AF%81%E4%B9%A6.png" alt></p>
+<p><img src="/image/bp%E6%8A%93%E5%8C%85/%E6%89%8B%E6%9C%BA%E5%AF%BC%E8%AF%81%E4%B9%A6.jpg" alt></p>
 <h3 id="抓包操作"><a href="#抓包操作" class="headerlink" title="抓包操作"></a>抓包操作</h3><p>在设置好之后，用手机访问京东</p>
-<p><img src="/image/bp%E6%8A%93%E5%8C%85/%E6%89%8B%E6%9C%BA%E8%AE%BF%E9%97%AE%E4%BA%AC%E4%B8%9C.png" alt></p>
+<p><img src="/image/bp%E6%8A%93%E5%8C%85/%E6%89%8B%E6%9C%BA%E8%AE%BF%E9%97%AE%E4%BA%AC%E4%B8%9C.jpg" alt></p>
 <p>抓取京东数据包</p>
 <p><img src="/image/bp%E6%8A%93%E5%8C%85/%E6%8A%93%E5%8F%96%E4%BA%AC%E4%B8%9C%E6%95%B0%E6%8D%AE%E5%8C%85.png" alt></p>
 
